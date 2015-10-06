@@ -1,12 +1,12 @@
-# maven-repo
+# maven-repo，自定义的基于github网站的免费nexus
 构建nexus仓库，存放自己开发的第三方Jar包。
 
 <p>添加依赖的仓库地址：</p>
 ```xml
 <repositories>
     <repository>
-        <id>glamey-maven-repository</id>
-        <url>https://raw.githubusercontent.com/glameyzhou/maven-repository/master/repository</url>
+        <id>zhouyang-maven-repo</id>
+        <url>https://raw.githubusercontent.com/glameyzhou/maven-repo/master/repository</url>
     </repository>
 </repositories>
 ```
