@@ -10,3 +10,7 @@
     </repository>
 </repositories>
 ```
+<p>将jar发布到本地maven仓库中</p>
+```
+mvn deploy -DskipTest=true -DaltDeploymentRepository=zhouyang-maven-repo::default::file:/Users/zhouyangzhou/work/maven-repo/repository
+```
